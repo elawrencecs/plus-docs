@@ -1,0 +1,12 @@
+{
+  "name": "plusdoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Lawrence",
+  "license": "ISC",
+  "private": true
+}
