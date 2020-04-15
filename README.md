@@ -1,2 +1,2 @@
-# plus-docs
-Plus Docs
+# Plus Docs
+Document Plus/Stripe/Etc.
