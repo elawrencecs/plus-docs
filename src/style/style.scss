@@ -1,5 +1,53 @@
 // Main style file
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #777;
+}
+
+
+.app-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .playbar {
+    display: flex;
+
+    .pb-progress-bar {
+      flex: 1;
+      border: 1px solid blue;
+    }
+
+    .pb-background {
+      padding: 1px;
+      background: pink;
+    }
+
+    .pb-progress {
+      background: red;
+      // height: 5px;
+      flex: 1;
+      height: 1rem;
+      width: 25%;
+    }
+
+  }
+
+  ul {
+    background: rgba(196, 196, 196, 0.432);
+    list-style-type: none;
+    padding: 0.5rem;
+    margin: 0;
+    li {
+      display: inline-block;
+      padding-left: 0.25rem;
+
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
 }
