@@ -21,11 +21,23 @@ const Stage = () => {
 
   return (
     <div className="stage">
-      <Sprite src={commonsenseLogo} ref={cslogoRef} />
-      <Sprite src={stripeLogo} ref={stripeLogoRef} />
-      <Sprite src={drupalLogo} ref={drupalLogoRef} />
-      <Sprite src={salesforceLogo} ref={sfLogoRef} />
-      <Sprite src={userIcon} ref={userRef} />
+      <header>
+        <Sprite src={commonsenseLogo} ref={cslogoRef} />
+      </header>
+      <main className="swimlanes">
+      <div className="swimlane user">
+          <Sprite src={userIcon} ref={userRef} />
+        </div>
+        <div className="swimlane drupal">
+          <Sprite src={drupalLogo} ref={drupalLogoRef} />
+        </div>
+        <div className="swimlane stripe">
+          <Sprite src={stripeLogo} ref={stripeLogoRef} />
+        </div>
+        <div className="swimlane salesforce">
+          <Sprite src={salesforceLogo} ref={sfLogoRef} />
+        </div>
+      </main>
     </div>
   )
 }

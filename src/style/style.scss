@@ -1,7 +1,38 @@
 // Main style file
+
+html, body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #777;
+  padding: 0;
+  margin: 0;
+
+  #root {
+    flex: 1;
+    display: flex;
+    width: 100%;
+
+    #app {
+      flex: 1;
+      display: flex;
+      width: 100%;
+    }
+  }
+
+  .stage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    & > main {
+      flex: 1;
+    }
+  }
 }
 
 
@@ -50,4 +81,18 @@ body {
       }
     }
   }
+}
+
+.swimlanes {
+  display: flex;
+  text-align: center;
+  .swimlane {
+    flex: 1;
+    border-left: 1px dashed rgb(223, 223, 223);
+
+    &:first-child {
+      border-left: none;
+    }
+  }
+
 }
