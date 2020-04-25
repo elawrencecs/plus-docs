@@ -8,6 +8,37 @@ html, body {
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  // background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/y-so-serious-white.png);
+  // background: url("https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-outline.png");
+  // background: url("https://www.toptal.com/designers/subtlepatterns/patterns/dot-grid.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/so-white.png"); // grainy
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/stripes-light.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/light-grey-terrazzo.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/funky-lines.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/topography.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/ep_naturalwhite.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png");
+  // background: url("https://www.toptal.com/designers/subtlepatterns/patterns/congruent_pentagon.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/crossword.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/light_grey.png");
+  // background: url("https://www.toptal.com/designers/subtlepatterns/patterns/sos.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/greyzz.png");
+  // background: url("https://www.toptal.com/designers/subtlepatterns/patterns/brickwall.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/cream_pixels.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/pw_pattern.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/ticks.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/mooning.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/squairy_light.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/ps_neutral.png"); // PS background
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/wavegrid.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/p6.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/p1.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/white_wall_hash.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/subtle_white_feathers.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/sneaker_mesh_fabric.png"); // sneaker
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/fabric_of_squares_gray.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/paper_fibers.png");
+
   color: #777;
   padding: 0;
   margin: 0;
@@ -32,6 +63,30 @@ body {
     & > main {
       flex: 1;
     }
+  }
+}
+
+.swim-header {
+  min-height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  // border: 1px solid orange;
+}
+
+.sprite {
+  display: inline-block;
+  // border: 1px dotted pink;
+  margin: auto;
+
+  &.header-icon {
+    img {
+      // border: 1px solid purple;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 0 5px pink;
   }
 }
 
